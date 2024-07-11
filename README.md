@@ -1,6 +1,7 @@
 # Word-Auto-Complete Dictionary
 
 This Java package provides functionality for building an auto-complete dictionary and suggesting word completions based on user input. The package includes a `CharTree` class that implements the auto-complete functionality using the `Prefix Tree`, along with a `WordsAutoCompleteManager` class demonstrating its usage.
+
 ![image](https://github.com/anddr0/WordAutoComplete/assets/59768574/4b2a4d85-d4cc-46b3-b569-967398de3e8e)
 
 
