@@ -1,11 +1,16 @@
 package words.autocomplete;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class Main {
 
    public static void main(String[] args) {
-        // Example usage
-        String filepath = "src\\words\\autocomplete\\most_common_words.txt";
-        WordsAutoCompleteManager manager = new WordsAutoCompleteManager(filepath, true);
+        String relativePath = "src/words/autocomplete/most_common_words.txt";
+        String currentDirectory = System.getProperty("user.dir");
+        Path filePath = Paths.get(currentDirectory, relativePath);
+
+        WordsAutoCompleteManager manager = new WordsAutoCompleteManager(filePath.toString(), true);
         manager.startProgram();
     }
 }
