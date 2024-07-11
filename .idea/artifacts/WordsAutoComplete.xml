@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="WordsAutoComplete">
+    <output-path>$PROJECT_DIR$/out/artifacts/WordsAutoComplete</output-path>
+    <root id="root">
+      <element id="archive" name="WordsAutoComplete.jar">
+        <element id="module-output" name="WordsAutoComplete" />
+      </element>
+    </root>
+  </artifact>
+</component>

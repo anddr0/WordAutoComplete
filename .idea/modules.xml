@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Words AutoComplete.iml" filepath="$PROJECT_DIR$/Words AutoComplete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordsAutoComplete.iml" filepath="$PROJECT_DIR$/WordsAutoComplete.iml" />
     </modules>
   </component>
 </project>
